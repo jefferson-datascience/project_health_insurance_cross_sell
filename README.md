@@ -1,6 +1,6 @@
 # Classificação de Clientes da Empresa Insurance All
 
-<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/logo.jpg" alt="logo" style="zoom: 80" />
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/logo.jpg" alt="logo" style="zoom: 80%" />
 
 
 O objetivo deste projeto é criar um modelo de machine learning que realiza a classificação dos clientes da empresa Insurance All, de tal modo, que retorne uma lista rankeada com os clientes que possuem maior propensão de obtenção do novo produto que a empresa está oferencendo.
@@ -133,14 +133,19 @@ Logo, o nosso modelo teve um ótimo desempenho para dados nunca antes vistos.
 
 
 # 7. Interpretação dos Resultados para o Negócio.
+
 Para analisar a performance de negócio, nos usaremos duas métricas que nos permite uma ótmia interpretação voltada para o negócio. Usaremos:
   - Curva de Ganho Cumulativo
+ 
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/cumulative_gains.png" alt="logo" style="zoom: 80%" />
+
   - Curva Lift
-Logo abaixo, temos a imagem das duas curvas como resultado da validação do conjunto de teste.
+  
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/lift_curve.png" alt="logo" style="zoom: 80%" />
+
 **Observação:** Nosso conjunto de teste possui 76222 linhas.
 
-
-# 8. Respondendo as Perguntas do CEO.
+## Respondendo as Perguntas do CEO.
 
 **2.** Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel? O time de vendas conseguirá contatar todos esses clientes fazendo 20.000 ligações?
 
