@@ -8,10 +8,10 @@ class HealthInsurance(object):
     
     def __init__(self):
         
-        self.home_path = '/'
-        self.annual_premium_scaler = pickle.load( open( self.home_path + '/features/annual_premium_scaler.pkl', 'rb' ) )
-        self.age_scaler            = pickle.load( open( self.home_path + '/features/age_scaler.pkl', 'rb' ) )
-        self.vintage_scaler        = pickle.load( open( self.home_path + '/features/vintage_scaler.pkl', 'rb' ) )
+        self.home_path = ''
+        self.annual_premium_scaler = pickle.load( open( self.home_path + 'features/annual_premium_scaler.pkl', 'rb' ) )
+        self.age_scaler            = pickle.load( open( self.home_path + 'features/age_scaler.pkl', 'rb' ) )
+        self.vintage_scaler        = pickle.load( open( self.home_path + 'features/vintage_scaler.pkl', 'rb' ) )
 
         
     def data_cleaning(self, df1):

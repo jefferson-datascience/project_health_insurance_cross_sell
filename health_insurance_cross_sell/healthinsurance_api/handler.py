@@ -8,7 +8,7 @@ from healthinsurance.HealthInsurance import HealthInsurance
 app = Flask(__name__)
 
 # Carregamento do modelo de predição
-model = pickle.load( open( '/models/model_xgb.pkl', 'rb') )
+model = pickle.load( open( 'models/model_xgb.pkl', 'rb') )
 
 @app.route('/predict', methods=['POST'])
 
