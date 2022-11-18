@@ -77,9 +77,11 @@ Para resolver esse problema, nós adotamos a seguinte estratégia:
 
 **Etapa 08 - Hyperparameter Fine Tunning:** Refinamento de parêmetros do modelo escolhido na etapa 07 e retreino do modelo com os dados de treino + validação.
 
-**Etapa 09 - Tradução e Interpretação dos Resultados:** Análise da performance do modelo escolhido para saber a capacidade de generalização para dados nunca antes vistos e verificar casos de overfitting. Uma vez verificado a capacidade de generalização. Realizar a análise dos resultados para o negócio respondendo as perguntas do CEO.
+**Etapa 09 - Tradução e Interpretação dos Resultados:** Análise da performance do modelo escolhido para saber a capacidade de generalização para dados nunca antes vistos e verificar casos de overfitting. Uma vez verificado a capacidade de generalização, realizar a análise dos resultados para o negócio.
 
 **Etapa 10 - Deploy do Modelo para Produção:** Criação da Api, criação da classe responsável pelos principais pontos desse projeto que permitem a implementação no modelo, relização do deploy no Web Service do Heroku.
+
+**Etapa 11 - Respondendo as Perguntas do CEO:** A partir dos dados fornecidos pelo CEO, responder as perguntas.
 
 # 4. Top 3 Insights
 
@@ -117,7 +119,7 @@ Para analisar a performance do nossos modelos, nós usamos duas métricas que s�
 
 - A precision at k, para k=40000, nos diz a precisão de acerto, em porcentagem, do modelo dentro de 40.000 linhas.
 
-- A recall at k, para k=40000, nos diz que, para os clientes interessados no produto, qual a porcentagem que o modelo conseuge predizer como interessados os clientes que possuem de fato interesse, dentro de 40.000 linhas.
+- A recall at k, para k=40000, nos diz que, para os clientes interessados no produto, qual a porcentagem que o modelo consegue predizer como interessados os clientes que possuem, de fato, interesse, dentro de 40.000 linhas.
 
 
 |       **model_name**          | **precision_at_k_40000** | **recall_at_k_40000** |
@@ -174,6 +176,12 @@ Para analisar a performance de negócio, nos usaremos duas métricas que nos per
 
 - Segundo a curva de ganho cumulativo, nós temos que tomar em torno 32% da nossa lista ordenanda para atingir 80% do clientes
 interessados, ou seja, temos que realizar em torno de 40.652 ligações.
+
+## Planilha no GoogleSheets com Botão de Rankeamento dos clientes interessados
+
+Foi desenvolvido uma planilha no Google Sheets que realiza o rankeamento dos clientes que possuem interesse em adquirir o seguro veicular. Para usar a planilha, basta acessá-la e clicar no botão 'Health Insurance Prediction'. No link abaixo, você tem acesso a planilha já com os 127.037 clientes copulados e pronto para ser ranqueados.
+
+**Planilha GoogleSheets:** https://docs.google.com/spreadsheets/d/1JyX5Woz1pj5QXOxUoTyWV7JDJu-muqXEc5M9iDQABF4/edit#gid=32390935
 
 # 8. Conclusões e Lições Aprendidas
 
