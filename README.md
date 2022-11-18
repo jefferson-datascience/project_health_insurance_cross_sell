@@ -39,7 +39,7 @@ A solução para esse problema é um aprendizado de máquina que realize a class
 
 # 2. Premissas de Negócio
 
-- O valor anual do seguro veicular é de R$ 30.565,00.
+- O valor anual do seguro veicular é de Rs 5.000.
 
 ## Atributos
 |      **ATRIBUTOS**    |                                              **DESCRIÇÃO**                                           |
