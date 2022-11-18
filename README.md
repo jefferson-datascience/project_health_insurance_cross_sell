@@ -150,7 +150,11 @@ Para analisar a performance de negócio, nos usaremos duas métricas que nos per
   
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/lift_curve.png" alt="logo" style="zoom: 80%" />
 
-**Observação:** Nosso conjunto de teste possui 76222 linhas.
+**Análise de Performance de Negócio**
+
+**1.** Tomando 40% da minha lista organizada pelo modelo, teremos 95% dos clientes interessados em adquirir o novo produto.
+
+**2.** Tomando 40% da minha lista organizada pelo model, em relação a uma lista organizada de forma aleatória, ela é 2,3 vezes melhor.
 
 ## Respondendo as Perguntas do CEO.
 
@@ -171,11 +175,20 @@ Para analisar a performance de negócio, nos usaremos duas métricas que nos per
 - Segundo a curva de ganho cumulativo, nós temos que tomar em torno 32% da nossa lista ordenanda para atingir 80% do clientes
 interessados, ou seja, temos que realizar em torno de 40.652 ligações.
 
-# 8. Conclusões
+# 8. Conclusões e Lições Aprendidas
 
-# 9. Lições Aprendidas
+O projeto foi concluído com sucesso com um modelo realiza a classificação dos clientes que tem o maior interesse em adquirir o novo produto fornecido pela empresa e, no fim, foi fornecido uma lista rankeada com os clientes que possuem mais interesse em adquirir o produto.
 
-# 10. Próximos Passos
+Para problemas dessa natureza, isto é, problemas de Learning to Rank, é importante realizar uma análise minuciosa das variáveis, de modo que, a relação das variáveis do dataset com a variável resposta nos dê características de discrepância de clientes que possuem interesse para clientes que não possuem interesses, pois dessa forma, o modelo consegue realizar melhor a classificação, assim, aperfeiçoando a sua performance. 
+Uma outra conclusão interessante a se fazer é que nesse problema as curvas lift e cumulative gains são extremamente importantes para interpretar os resultados do modelo de aprendizem de máquina para a linguagem dos negócios.
 
-#### LICENSE
-#### All Rights Reserved - Comunidade DS 2022
+A utilização das métricas corretas para o nosso problema foram essenciais para saber analisar o desempenho. Para o nosso problema, o recall e a precision foram ótima métricas, pois a precision nos dá informação de qual é a capacidade de acerto, no geral, do nosso modelo e o recall nos diz a capacidade do nosso modelo de acerto de clientes que tem interesse no produto.
+
+# 9. Próximos Passos
+
+Os próximos passos desse projeto será:
+
+- Realizar um novo ciclo CRISP-DM para melhorar a performance do modelo investigando e criando novas features.
+- Analisar em quais canais de comunicação a empresa tem uma melhor taxa de conversão.
+- Após 1 semana do modelo em produção, analisar o desempenho X resultados na prática.
+- Treinar a equipe de vendas para usar o modelo.
