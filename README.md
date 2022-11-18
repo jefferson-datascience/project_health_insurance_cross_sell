@@ -59,7 +59,7 @@ A solução para esse problema é um aprendizado de máquina que realize a class
 
 # 3. Estratégia de Resolução
 
-Para resolver esse problema, nós adotamos a seguinte estratégia.
+Para resolver esse problema, nós adotamos a seguinte estratégia:
 
 **Etapa 01 - Descrição dos Dados:** Comprensão dos atributos, analise da dimensão do dados, verificação de dados nulos e estudo da estatística descritiva dos dados numéricos e categóricos.
 
