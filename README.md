@@ -3,7 +3,7 @@
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/logo.jpg" alt="logo" style="zoom: 80%" />
 
 
-O objetivo deste projeto é criar um modelo de machine learning que realiza a classificação dos clientes da empresa Insurance All, de tal modo, que retorne uma lista rankeada com os clientes que possuem maior propensão de obtenção do novo produto que a empresa está oferencendo.
+O objetivo deste projeto é criar um modelo de machine learning que realiza a classificação dos clientes da empresa Insurance All, de tal modo, que retorne uma lista rankeada com os clientes que possuem maior propensão de compra do novo produto que a empresa está oferencendo.
 
 O contexto de negócio é fictício. Todavia, o planejamento, execução, desenvolvimento e implementação da solução seguem todos os passos de um projeto real.
 
