@@ -73,7 +73,7 @@ Para resolver esse problema, nós adotamos a seguinte estratégia:
 
 **Etapa 06 - Seleção das Features:** Divisão do conjunto de dados em treino, validação e teste, seleção das variáveis mais relevante usando o modelo extratreesclassifier.
 
-**Etapa 07 - Machine Learning Models:** Preparação dos dados de treino, teste e validação com as variáveis mais relevantes obtidos na etapa 06, análise da performance dos modelos escolhidos. As métricas usadas para realizar a análise foram a recall at k, precision at k, c urva lift e curva de ganho cumulativo. E escolha do modelo com melhor performance.
+**Etapa 07 - Machine Learning Models:** Preparação dos dados de treino, teste e validação com as variáveis mais relevantes obtidos na etapa 06, análise da performance dos modelos escolhidos. As métricas usadas para realizar a análise foram a recall at k, precision at k, curva lift e curva de ganho cumulativo. Além disso, escolha do modelo com melhor performance.
 
 **Etapa 08 - Hyperparameter Fine Tunning:** Refinamento de parêmetros do modelo escolhido na etapa 07 e retreino do modelo com os dados de treino + validação.
 
