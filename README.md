@@ -61,6 +61,8 @@ A solução para esse problema é um aprendizado de máquina que realize a class
 
 Para resolver esse problema, nós adotamos a seguinte estratégia:
 
+**Etapa 0:** Coleta dos Dados no Postgresql
+
 **Etapa 01 - Descrição dos Dados:** Comprensão dos atributos, analise da dimensão do dados, verificação de dados nulos e estudo da estatística descritiva dos dados numéricos e categóricos.
 
 **Etapa 02 - Feature Engineering:** Criação do Mapa Mental para criar hipóteses e insights e reajuste de variáveis.
