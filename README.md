@@ -39,7 +39,7 @@ A solução para esse problema é um aprendizado de máquina que realize a class
 
 # 2. Premissas de Negócio
 
-- O valor anual do seguro veicular é de R$ 30.565,00.
+- O valor anual do seguro veicular é de Rs 5.000.
 
 ## Atributos
 |      **ATRIBUTOS**    |                                              **DESCRIÇÃO**                                           |
@@ -85,15 +85,22 @@ Para resolver esse problema, nós adotamos a seguinte estratégia.
 
 **Hipótese 06:** Clientes em que seus veículos já foram danificados aceitam mais o seguro veicular.
 
-**True/False.**
+**Resposta.** Essa afirmação é verdadeira!
+
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_6.png" alt="logo" style="zoom: 80%" />
 
 **Hipótese 07:** Clientes que já possuem algum seguro veicular aceitam menos o seguro de automóvel ofertado.
 
-**True/False.**
+**Resposta.**  Essa afirmação é verdadeira!
+
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_7.png" alt="logo" style="zoom: 80%" />
+
 
 **Hipótese 09:** Clientes com idade acima de 40 anos aceitam mais o seguro veicular
 
-**True/False.**
+**Resposta.**  Essa afirmação é verdadeira. Melhor ainda, clientes que estão na faixa de idade de 40 a 50 anos aceitam mais o seguro veicular.
+
+<img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_9.png" alt="logo" style="zoom: 80%" />
 
 # 5. Modelos de Machine Learning Utilizados
 Para escolher o melhor modelo de Machine Learning par resolver os nosso problema, nós selecionamos:
@@ -143,32 +150,45 @@ Para analisar a performance de negócio, nos usaremos duas métricas que nos per
   
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/lift_curve.png" alt="logo" style="zoom: 80%" />
 
-**Observação:** Nosso conjunto de teste possui 76222 linhas.
+**Análise de Performance de Negócio**
+
+**1.** Tomando 40% da minha lista organizada pelo modelo, teremos 95% dos clientes interessados em adquirir o novo produto.
+
+**2.** Tomando 40% da minha lista organizada pelo model, em relação a uma lista organizada de forma aleatória, ela é 2,3 vezes melhor.
 
 ## Respondendo as Perguntas do CEO.
 
 **2.** Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel? O time de vendas conseguirá contatar todos esses clientes fazendo 20.000 ligações?
 
-- Em nosso conjunto de teste nós temos aproximadamente 12% de clientes interessados em adquirir o seguro de automóvel, ou seja, 9281 clientes de um conjunto de teste possui 76222 clientes.
-- Observe que ao realizar 20.000 ligações para os clientes que estão na lista organizada pelo nosso modelo, nós estamos tomando 26% do nosso conjunto de dados. Nosso modelo diz que se tomarmos 26% do nossos dados, temos em torno de 62% dos clientes interessados. Ou seja, em 20.000 ligações nós vamos conseguir atingir 5754 clientes interessados.
-- Assim, se a campanha da empresa trabalhar com a capacidade de 20.000 ligações, o faturamento estimado será em torno de R$ 175.871.010,00.
+- Em nosso conjunto de teste nós temos aproximadamente 1.77% de clientes interessados em adquirir o seguro de automóvel, ou seja, 2250 clientes de um conjunto de teste possui 127037 clientes.
+- Observe que ao realizar 20.000 ligações para os clientes que estão na lista organizada pelo nosso modelo, nós estamos tomando 15% do nosso conjunto de dados. A curva de cumulative gains do nosso modelo diz que se tomarmos 15% do nossos dados, temos em torno de 40% dos clientes interessados. Ou seja, em 20.000 ligações nós vamos conseguir atingir 900 clientes interessados.
+- Logo, com a campanha tem a capacidade de 20.000 ligações, teremos um faturamento estimado em Rs 4.500.000;
 
 **3.** E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 
-- Realizando 40.000 ligações para os clientes que estão na lista organizada pelo nosso modelo, nós estamos tomando 52% do nosso conjunto de dados. Nosso modelo diz que se tomarmos 52% do nossos dados, temos em torno de 95% dos clientes interessados. Ou seja, em 40.000 ligações nós vamos conseguir atingir 8816 clientes interessados.
+-Realizando 40.000 ligações para os clientes que estão na lista organizada pelo nosso modelo, nós estamos tomando 31% do nosso conjunto de dados. A curva de cumulative gains do nosso modelo diz que se tomarmos 32% do nossos dados, temos em torno de 80% dos clientes interessados. Ou seja, em 40.000 ligações nós vamos conseguir atingir 1800 clientes interessados.
 
-- Assim, se a campanha da empresa trabalhar com a capacidade de 40.000 ligações, o faturamento estimado será em torno de R$ 269.461.040,00.
- 
+- Assim, se a campanha da empresa trabalhar com a capacidade de 40.000 ligações, o faturamento estimado será em torno de Rs 9.000.000;
+
 **4.** Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 
-- Segundo a curva de ganho cumulativo, nós temos que tomar em torno 35% da nossa lista ordenanda para atingir 80% do clientes
-interessados, ou seja, temos que realizar em torno de 26678 ligações.
+- Segundo a curva de ganho cumulativo, nós temos que tomar em torno 32% da nossa lista ordenanda para atingir 80% do clientes
+interessados, ou seja, temos que realizar em torno de 40.652 ligações.
 
-# 8. Conclusões
+# 8. Conclusões e Lições Aprendidas
 
-# 9. Lições Aprendidas
+O projeto foi concluído com sucesso com um modelo realiza a classificação dos clientes que tem o maior interesse em adquirir o novo produto fornecido pela empresa e, no fim, foi fornecido uma lista rankeada com os clientes que possuem mais interesse em adquirir o produto.
 
-# 10. Próximos Passos
+Para problemas dessa natureza, isto é, problemas de Learning to Rank, é importante realizar uma análise minuciosa das variáveis, de modo que, a relação das variáveis do dataset com a variável resposta nos dê características de discrepância de clientes que possuem interesse para clientes que não possuem interesses, pois dessa forma, o modelo consegue realizar melhor a classificação, assim, aperfeiçoando a sua performance. 
+Uma outra conclusão interessante a se fazer é que nesse problema as curvas lift e cumulative gains são extremamente importantes para interpretar os resultados do modelo de aprendizem de máquina para a linguagem dos negócios.
 
-#### LICENSE
-#### All Rights Reserved - Comunidade DS 2022
+A utilização das métricas corretas para o nosso problema foram essenciais para saber analisar o desempenho. Para o nosso problema, o recall e a precision foram ótima métricas, pois a precision nos dá informação de qual é a capacidade de acerto, no geral, do nosso modelo e o recall nos diz a capacidade do nosso modelo de acerto de clientes que tem interesse no produto.
+
+# 9. Próximos Passos
+
+Os próximos passos desse projeto será:
+
+- Realizar um novo ciclo CRISP-DM para melhorar a performance do modelo investigando e criando novas features.
+- Analisar em quais canais de comunicação a empresa tem uma melhor taxa de conversão.
+- Após 1 semana do modelo em produção, analisar o desempenho X resultados na prática.
+- Treinar a equipe de vendas para usar o modelo.
