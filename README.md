@@ -7,6 +7,8 @@ O objetivo deste projeto é criar um modelo de machine learning que realiza a cl
 
 O contexto de negócio é fictício. Todavia, o planejamento, execução, desenvolvimento e implementação da solução seguem todos os passos de um projeto real.
 
+Os dados do problema de negócio estão disponíveis no kaggle: https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
+
 # 1. Questão de Negócio
 
 A Insurance All é uma empresa que fornece seguro de saúde para seus clientes e o time de produtos está analisando a possibilidade de oferecer aos assegurados, um novo produto: Um seguro de automóveis. Assim como o seguro de saúde, os clientes desse novo plano de seguro de automóveis precisam pagar um valor anualmente à Insurance All para obter um valor assegurado pela empresa, destinado aos custos de um eventual acidente ou dano ao veículo.
@@ -61,7 +63,7 @@ A solução para esse problema é um aprendizado de máquina que realize a class
 
 Para resolver esse problema, nós adotamos a seguinte estratégia:
 
-**Etapa 0:** Coleta dos Dados no Postgresql
+**Etapa 00:** Coleta dos Dados no Postgresql.
 
 **Etapa 01 - Descrição dos Dados:** Comprensão dos atributos, analise da dimensão do dados, verificação de dados nulos e estudo da estatística descritiva dos dados numéricos e categóricos.
 
