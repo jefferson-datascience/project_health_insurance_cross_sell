@@ -91,20 +91,20 @@ Para resolver esse problema, nós adotamos a seguinte estratégia:
 
 **Hipótese 06:** Clientes em que seus veículos já foram danificados aceitam mais o seguro veicular.
 
-**Resposta.** Essa afirmação é verdadeira!
+**Resposta.** Essa afirmação é verdadeira! Dos clientes que tem interesse no seguro veicular, aqueles que já tiveram o veículo danificado possuem um maior interesse.
 
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_6.png" alt="logo" style="zoom: 80%" />
 
 **Hipótese 07:** Clientes que já possuem algum seguro veicular aceitam menos o seguro de automóvel ofertado.
 
-**Resposta.**  Essa afirmação é verdadeira!
+**Resposta.**  Essa afirmação é verdadeira! Dos clientes que possuem interesse no seguro veicular, aqueles que já são assegurados por outra seguradora não demonstraram interesse nenhum no seguro de veículos oferecido pela empresa.
 
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_7.png" alt="logo" style="zoom: 80%" />
 
 
 **Hipótese 09:** Clientes com idade acima de 40 anos aceitam mais o seguro veicular
 
-**Resposta.**  Essa afirmação é verdadeira. Melhor ainda, clientes que estão na faixa de idade de 40 a 50 anos aceitam mais o seguro veicular.
+**Resposta.**  Essa afirmação é verdadeira! Olhando com mais detalhes, vemos que clientes que estão na faixa de idade de 40 a 50 anos aceitam mais o seguro veicular.
 
 <img src="https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/images/hipotese_9.png" alt="logo" style="zoom: 80%" />
 
