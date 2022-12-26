@@ -185,7 +185,7 @@ interessados, ou seja, temos que realizar em torno de 40.652 ligações.
 
 Foi desenvolvido uma planilha no Google Sheets que realiza o rankeamento dos clientes que possuem interesse em adquirir o seguro veicular. Para usar a planilha, basta acessá-la e clicar no botão 'Health Insurance Prediction'. No link abaixo, você tem acesso a planilha já com os 127.037 clientes copulados e pronto para ser ranqueados.
 
-**Planilha GoogleSheets:** https://docs.google.com/spreadsheets/d/1JyX5Woz1pj5QXOxUoTyWV7JDJu-muqXEc5M9iDQABF4/edit#gid=32390935
+**Planilha GoogleSheets:** https://docs.google.com/spreadsheets/d/14rkdwsxiynRvD_Bm5-kp9kz1WxuxI2GcF1MB3RERt1I/edit#gid=82869940
 
 # 8. Conclusões e Lições Aprendidas
 
