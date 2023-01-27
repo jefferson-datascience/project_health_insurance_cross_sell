@@ -187,6 +187,8 @@ Foi desenvolvido uma planilha no Google Sheets que realiza o rankeamento dos cli
 
 **Planilha GoogleSheets:** https://docs.google.com/spreadsheets/d/14rkdwsxiynRvD_Bm5-kp9kz1WxuxI2GcF1MB3RERt1I/edit#gid=82869940
 
+Para acessar os códigos e desenvolvimento dos projetos, basta acessar o link a seguir: **[Códigos e Desenvolvimento do Projeto](https://github.com/jefferson-datascience/project_health_insurance_cross_sell/blob/main/health_insurance_cross_sell/notebooks/1.0.jhc_health_insurance_cross_sell.ipynb)**
+
 # 8. Conclusões e Lições Aprendidas
 
 O projeto foi concluído com sucesso com um modelo realiza a classificação dos clientes que tem o maior interesse em adquirir o novo produto fornecido pela empresa e, no fim, foi fornecido uma lista rankeada com os clientes que possuem mais interesse em adquirir o produto.
